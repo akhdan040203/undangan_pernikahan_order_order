@@ -410,27 +410,24 @@
     </footer>
 
     <!-- Welcome Page -->
- <div class="loading-page" id="welcome" style="opacity: 1;">
-    <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+    <div class="loading-page" id="welcome" style="opacity: 1;">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+            <div class="text-center">
+                <h1 class="font-esthetic mb-4" style="font-size: 2.5rem;">The Wedding Of</h1>
 
-        <div class="text-center">
-            <h1 class="font-esthetic mb-4" style="font-size: 2.5rem;">The Wedding Of</h1>
+                <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
+                    <img src="./assets/images/bg.jpeg" alt="background">
+                </div>
 
-            <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
-                <img src="./assets/images/bg.jpeg" alt="bg">
+                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Enjang Dede cahyono & Andini ramadani</h1>
+                <div id="guest-name" data-message="Kepada Yth Bapak/Ibu/Saudara/i"></div>
+
+                <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.open(this)">
+                    <i class="fa-solid fa-envelope-open me-2"></i>Open Invitation
+                </button>
             </div>
-
-            <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">Enjang Dede cahyono & 
-                Andini ramadani
-            </h1>
-            <div id="nama-tamu"></div>
-
-            <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
-                <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
-            </button>
         </div>
     </div>
-</div>
 
     <!-- Audio Button -->
     <button type="button" id="button-music" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="audio.button(this)" data-status="true" data-url="./assets/music/1.mp3">
